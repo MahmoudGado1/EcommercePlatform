@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Shopping</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 fixed-top">
+        <div class="container">
+          <a href="index.html"><img src="images/logo1.png" alt=""></a>
+          <a href="#" id="user"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span><i id="bar" class="fas fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <ul id="links" class="btn-sign d-flex">
+                <li><a href="#" id="user"></a></li>
+                <li class="" id="links">
+                  <a class=" btn btn-outline-dark" href="login.html">Sign In</a>
+                  <a class=" btn btn-outline-dark" href="register.html">Sign Up</a>
+                </li>
+              </ul>
+            </ul>
+            <ul id="user_info" class="">
+              <li class="shopping_cart">
+                <i class="fas fa-shopping-cart icon"></i>
+                <span class="badge"></span>
+                <div class="carts_products">
+                  <div class="details">
+                    <!-- Cart products will be dynamically inserted here -->
+                  </div>
+                  <a href="cart.html">View All Products</a>
+                </div>
+              </li>
+              <li><a href="#" class="btn btn-outline-dark " id="logout">Log Out</a></li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+  </header>
+
+  <section id="searchhhh">
+    <div class="container w-100 mt-4 mb-4">
+      <select class="select-option">
+        <option >Search By Name</option>
+        <option >Search By Category</option>
+      </select>
+      <input class="search" type="text" placeholder="Search" onkeyup="search()">
+    </div>
+  </section>
+
+  <section>
+    <div class="container text-center">
+      <h2 class="font-weight-bold ">Our Featured</h2><hr>
+      <p>Here you can check out our new products with fair price on rymo</p>
+    </div>
+        <div class="product container mx-auto row">
+        </div>
+  </section>
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

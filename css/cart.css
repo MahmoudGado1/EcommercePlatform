@@ -1,0 +1,27 @@
+.product{
+    margin-top: 170px;
+}
+aside.container.show {
+    position: fixed;
+    top: 70%; 
+    right: 3%; 
+    width: 300px; 
+    background-color: coral;
+    border: 1px solid rgb(31, 30, 30);
+    padding: 20px;
+    box-shadow:  10px 10px 8px rgba(0, 0, 0, 0.3); 
+    z-index: 1000; 
+    border-radius: 10px;
+    opacity: 0.8;
+}
+#showprice.btn.btn-secondary {
+    display: block;
+    width: 100%; 
+    margin-bottom: 1rem; 
+    background-color: aliceblue;
+    color: rgb(43, 41, 41);
+    margin-top: 20px;
+}
+#div2 {
+    
+}
